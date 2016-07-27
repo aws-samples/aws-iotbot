@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Client Id:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvClientId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Status:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:text="Disconnected" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="CONNECT"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/border"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/lookLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="LOOK LEFT"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true"/>
+
+            <Button
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="CAM"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true" />
+
+            <Button
+                android:id="@+id/lookRight"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="LOOK RIGHT"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/fwd"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="FORWARD"
+                android:textStyle="bold"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:clickable="true"
+                android:contextClickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="LEFT"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true"/>
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="STOP"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true" />
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="RIGHT"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="BACK"
+                android:textColorHighlight="@android:color/black"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:contextClickable="true"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Widget.ActionBar" parent="android:style/Theme.Material">
+        <!-- ... -->
+    </style>
+
+    <style name="Widget.ActionBar.Logo">
+        <item name="android:logo">@drawable/iot</item>
+        <item name="android:displayOptions">useLogo|showHome</item>
+    </style>
+</resources>
