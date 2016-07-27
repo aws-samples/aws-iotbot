@@ -84,4 +84,4 @@ node iotbot.js
 }
 ```
 
-After configuring the IoTbot, install the Android app to remote control it: https://github.com/awsed/IotbotApp
+After configuring the IoTbot, install the Android app to remote control it: https://github.com/awslabs/aws-iotbot/tree/master/iotbot-app/IotbotApp
