@@ -2,7 +2,7 @@
   <img src="iotbotapp.png" width="375"/>
 </p>
 
-This is an android app that controls the IoTbot: https://github.com/awsed/iotbot
+This is an android app that controls the IoTbot: https://github.com/awslabs/aws-iotbot/tree/master/iotbot-device/iotbot
 
 The app controls the robot movements via AWS IoT as well as retrieves the images taken by the robot camera from an S3 bucket.
 
