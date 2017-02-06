@@ -8,5 +8,5 @@ With this code the GoPiGo will turn into an AWS IoT device allowing an operator 
 For each platform the code is available in the following folders with further instructions:
 
 * iotbot-device: code to run the robot as an AWS IoT device
-* iotbot-app: Android mobile app to remote control de robot
+* iotbot-app: Android mobile app to remote control the robot
 * iotbot-alexa_skill: AWS Lambda function to remote control the robot via voice with an Amazon Echo
